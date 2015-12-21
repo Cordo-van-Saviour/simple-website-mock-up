@@ -1,0 +1,29 @@
+/*
+|------------------------------------------------------------
+| Sticky Footer
+|------------------------------------------------------------
+
+Usage:
+
+$sticky-footer-height; 100px; // The height of your footer
+If the margin on the body needs to be more or less than the height of the footer, a second variable can be declared:
+$sticky-footer-margin: 120px;
+
+*/
+
+@if $sticky-footer-height {
+	html {
+		position: relative;
+		min-height: 100%;
+	}
+	body {
+		margin: 0 0 $sticky-footer-margin; /* bottom = footer height */
+	}
+	footer {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		height: $sticky-footer-height;
+		width: 100%;
+	}
+}

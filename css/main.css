@@ -1,0 +1,333 @@
+/*
+|------------------------------------------------------------
+| Import of all non-compile files
+|------------------------------------------------------------
+*/
+/*
+|------------------------------------------------------------
+| General variables
+|------------------------------------------------------------
+*/
+/*
+|------------------------------------------------------------
+| General mixins
+|------------------------------------------------------------
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * Clearfix for modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+/*
+|------------------------------------------------------------
+| Sticky Footer
+|------------------------------------------------------------
+
+Usage:
+
+$sticky-footer-height; 100px; // The height of your footer
+If the margin on the body needs to be more or less than the height of the footer, a second variable can be declared:
+$sticky-footer-margin: 120px;
+
+*/
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f7fafa;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+/* COLUMNS */
+[class*='col-'] {
+  float: left;
+}
+
+.col-1-4 {
+  width: 25%;
+}
+
+.col-2-4 {
+  width: 50%;
+}
+
+.col-3-4 {
+  width: 75%;
+}
+
+.col-4-4 {
+  width: 100%;
+}
+
+.col-5-12 {
+  width: 41.67%;
+}
+
+.col-7-12 {
+  width: 58.33%;
+}
+
+/* END COLUMNS */
+/* NAVIGATION */
+a {
+  text-decoration: none;
+}
+
+ul li {
+  display: inline;
+}
+
+.super-nav ul {
+  margin: 10px 0;
+  display: block;
+  clear: none;
+}
+.super-nav ul li {
+  border-right: 2px solid #ecefef;
+}
+.super-nav ul li:last-of-type {
+  border-right: 0;
+}
+.super-nav ul li a {
+  color: #898989;
+  padding: 5px;
+}
+.super-nav .navigation-contact {
+  float: right;
+}
+.super-nav .navigation-contact p {
+  display: inline-block;
+  clear: none;
+  padding: 10px 5px;
+  color: #898989;
+}
+
+.logo {
+  display: inline;
+  clear: left;
+}
+.logo h4 {
+  clear: none;
+  float: left;
+  text-transform: uppercase;
+  color: #ecefef;
+}
+.logo img {
+  clear: none;
+  float: left;
+}
+
+nav {
+  border-top: 1px solid #ecefef;
+}
+nav ul {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+nav ul li {
+  margin: auto;
+}
+nav ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 37px;
+  color: black;
+}
+nav .side-utilities {
+  float: right;
+}
+nav .side-utilities img {
+  padding: 7px;
+  margin-left: 5px;
+  border-radius: 100px;
+  border: 4px solid #eaecec;
+  vertical-align: middle;
+}
+
+/* END NAVIGATION */
+/* BODY - SLIDER */
+.slider {
+  margin-top: 70px;
+}
+.slider h2 {
+  margin: 40px auto 40px auto;
+}
+.slider p {
+  font-size: 18px;
+  padding-right: 70px;
+  margin-bottom: 75px;
+}
+.slider a button {
+  cursor: pointer;
+  color: white;
+  background-color: #37bbec;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 45px;
+  float: left;
+}
+.slider .old-price, .slider .new-price {
+  float: right;
+  display: block;
+}
+.slider .old-price {
+  text-decoration: line-through;
+  color: #37bbec;
+  font-size: 24px;
+  margin-top: 25px;
+  vertical-align: text-bottom;
+}
+.slider .new-price {
+  padding: 0 70px 0 20px;
+  color: #282727;
+  font-size: 50px;
+  line-height: 50px;
+}
+.slider .slider-controls {
+  clear: left;
+}
+.slider .slider-controls a {
+  float: left;
+  display: block;
+  border-radius: 100px;
+  background-color: white;
+  width: 18px;
+  height: 18px;
+  margin: 75px 4px 0 0;
+  border: 2px solid #e3e5e5;
+}
+.slider .slider-controls a:hover {
+  background-color: #37bbec;
+  /* placeholder for active */
+}
+
+/* BODY - SLIDER END */
+/* BODY - PRODUCTS */
+.products {
+  clear: both;
+  float: left;
+}
+
+h3 {
+  float: left;
+  margin: 100px 0 50px 0;
+}
+
+.dropdown-menu {
+  clear: left;
+}
+.dropdown-menu ul li {
+  display: inline-block;
+  width: 100%;
+}
+.dropdown-menu ul li a {
+  clear: left;
+}
+
+.dropdown-menu-head {
+  text-transform: uppercase;
+}

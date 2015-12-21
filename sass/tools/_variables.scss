@@ -1,0 +1,27 @@
+/*
+|------------------------------------------------------------
+| General variables
+|------------------------------------------------------------
+*/
+
+
+// COLORS
+
+$gray: 				#2c2c2c !default;
+$lightGray: 		#f2f2f2 !default;
+$purple: 			#663352 !default;
+$darkPurple: 		#51283e !default;
+
+// Typography
+// -------------------------
+$sansFontFamily:        'Open Sans', Helvetica, Arial, sans-serif !default;
+$baseFontSize: 14px;
+$baseLineHeight: 21px;
+
+// Font Colors
+$baseFontColor: $gray;
+$lightFontColor: white;
+
+// StickyFooter
+$sticky-footer-height: false !default;
+$sticky-footer-margin: $sticky-footer-height !default;

@@ -215,7 +215,7 @@ nav {
 		font-size: 50px;
 		line-height: 50px;
 	}
-	.slider-controls {
+	/* 	.slider-controls {
 			clear: left;
 		a {
 			float: left;
@@ -227,14 +227,19 @@ nav {
 			margin: 75px 4px 0 0;
 			border: 2px solid #e3e5e5;
 			&:hover {
-				background-color: #37bbec; /* placeholder for active */
+				background-color: #37bbec; /* placeholder for active 
 			}
-		}
-	}
+		} 
+	} */
 	img {
 		float: right;
 		width: 100%;
 	}
+}
+
+#ninja-slider-pager {
+	float: left;
+	display: block;
 }
 
 /* BODY - SLIDER END */

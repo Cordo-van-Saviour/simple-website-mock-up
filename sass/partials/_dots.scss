@@ -1,0 +1,41 @@
+.purple-dot,
+.blue-dot,
+.green-dot,
+.yellow-dot,
+.orange-dot,
+.red-dot,
+.gray-dot,
+.black-dot,
+.multicolor-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 100px;
+    float: left;
+    clear: none;
+    margin-top: 3px;
+}
+
+.purple-dot {
+    background-color: purple;
+}
+.blue-dot {
+    background-color: blue;
+}
+.green-dot {
+    background-color: green;
+}
+.yellow-dot {
+    background-color: yellow;
+}
+.orange-dot {
+    background-color: orange;
+}
+.red-dot {
+    background-color: red;
+}
+.gray-dot {
+    background-color: gray;
+}
+.black-dot {
+    background-color: black;
+}

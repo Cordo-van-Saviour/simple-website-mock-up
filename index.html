@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -121,15 +122,15 @@
 		<div class="col-1-4 dropdown-menu">
 			<ul>
 				<li class="dropdown-menu-head">Select color<a href="#"><img src="img/dropdown-arrow-small.png" alt=""></a></li>
-				<li><a href="#">Purple</a></li>
-				<li><a href="#">Blue</a></li>
-				<li><a href="#">Green</a></li>
-				<li><a href="#">Yellow</a></li>
-				<li><a href="#">Orange</a></li>
-				<li><a href="#">Red</a></li>
-				<li><a href="#">Gray</a></li>
-				<li><a href="#">Black</a></li>
-				<li><a href="#">Multicolor</a></li>
+				<li><div class="purple-dot"></div><a href="#">Purple</a><input type="checkbox" name="color"></li>
+				<li><div class="blue-dot"></div><a href="#">Blue</a><input type="checkbox" name="color"></li>
+				<li><div class="green-dot"></div><a href="#">Green</a><input type="checkbox" name="color"></li>
+				<li><div class="yellow-dot"></div><a href="#">Yellow</a><input type="checkbox" name="color"></li>
+				<li><div class="orange-dot"></div><a href="#">Orange</a><input type="checkbox" name="color"></li>
+				<li><div class="red-dot"></div><a href="#">Red</a><input type="checkbox" name="color"></li>
+				<li><div class="gray-dot"></div><a href="#">Gray</a><input type="checkbox" name="color"></li>
+				<li><div class="black-dot"></div><a href="#">Black</a><input type="checkbox" name="color"></li>
+				<li><img class="multicolor-dot"src="img/multicolor-dot.png" alt=""><a href="#">Multicolor</a><input type="checkbox" name="color"></li>
 			</ul>
 		</div>
 
@@ -173,6 +174,23 @@
 			</ul>
 		</div>
 
+		<div class="col-1-4 dropdown-menu mt-20">
+			<ul>
+				<li class="dropdown-menu-head">Materials<a href="#"><img src="img/dropdown-arrow-small.png" alt=""></a></li>
+	  			<li>All<input type="radio" name="material" value="material" checked></li>
+	  			<br>
+	  			<li>Steel<input type="radio" name="material" value="material"></li>
+	  			<br>
+	  			<li>Plastic<input type="radio" name="material" value="material"></li>
+	  			<br>
+	  			<li>Ceramics<input type="radio" name="material" value="material"></li>
+	  			<br>
+	  			<li>Wood<input type="radio" name="material" value="material"></li>
+	  			<br>
+			</ul>
+		</div>
+
+
 		<div class="col-3-4 reposition">
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
@@ -201,6 +219,7 @@
 				<img src="img/catalog.jpg" alt="">
 				<h3>Free Catalog</h3>
 				<p>Summer 2015</p>
+				<a href="#"><button>Download</button></a>
 			</div>
 		</div>
 

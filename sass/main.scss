@@ -270,7 +270,7 @@ h3 {
 		background-color: #fafafa;
 	}
 		a {
-			clear: left;
+			padding-left: 10px;
 		}
 	}
 }
@@ -288,7 +288,7 @@ h5 {
 }
 
 p {
-	padding: 0 10px 10px 10px;
+	padding: 0 10px 20px 10px;
 	color: #898989;
 }
 
@@ -309,6 +309,7 @@ p {
 
 .catalog {
 	clear: left;
+	margin-top: -60px;
 	h3 {
 		margin: 20px 20px 40px 20px;
 		position: relative;
@@ -324,6 +325,20 @@ p {
     	text-transform: uppercase;
     	font-weight: bold;
 	}
+	a button {
+	    position: relative;
+	    bottom: 190px;
+	    left: 20px;
+	    color: white;
+	    background: transparent;
+	    border: 2px solid white;
+	    padding: 8px 20px;
+	    border-radius: 5px;
+	    cursor: pointer;
+		}
+	img {
+		width: 100%;
+	} 
 }
 
 .catalog-clear {
@@ -337,7 +352,7 @@ p {
 
 .reposition {
 	position: relative;
-	bottom: 50px;
+	bottom: 130px;
 }
 
 .col-1-4 a {
@@ -350,6 +365,10 @@ p {
 	clear: none;
 	position: relative;
 	padding: 5px;
+}
+
+input {
+	float: right;
 }
 
 

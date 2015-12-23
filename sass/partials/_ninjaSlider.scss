@@ -183,6 +183,7 @@
     cursor:pointer;
     -webkit-transition:all 0.7s;
     transition:all 0.7s;
+    display: none;  // added because I don't want slider controls
 }
 
 div.slider-inner:hover #ninja-slider-prev, div.slider-inner:hover #ninja-slider-next {

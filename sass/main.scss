@@ -133,6 +133,10 @@ ul li {
 	}
 }
 
+.catalog-responsive {
+	display: none;
+}
+
 
 .secondary-navigation {
 	border-top: 1px solid #ecefef;
@@ -182,12 +186,8 @@ header {
 		margin-top: 28px;
 		margin-bottom: -28px;
 	}
-	ul {
-		margin: 0;
-		li {
-			display: block;
-			// display: none;
-		}
+	li {
+		display: block;
 	}
 }
 
@@ -546,6 +546,7 @@ footer {
 	}
 
 	.slider { 
+
 		p {
 			font-size: 14px;
 		}
@@ -580,6 +581,21 @@ footer {
 		display: none;
 	}
 
+	.catalog-responsive {
+		display: block;
+		margin-bottom: -100px;
+		p {
+			bottom: 135px;
+		}
+		h3 {
+			bottom: 105px;
+		}
+		a button {
+			left: 80%;
+		}
+	}
+
+
 	.product-line {
 		width: 30%;
     	margin: 30px 5% 30px 0;
@@ -606,9 +622,6 @@ footer {
 	.responsive-navigation img {
 		display: block;
 	}
-	// .hamburger-menu {
-	// 	display: block;
-	// }
 	
 
 	.dropdown-menu ul {
@@ -671,6 +684,16 @@ footer {
 	.product-line {
 		width: 100%;
 		margin-right: 0;
+	}
+
+	.catalog-responsive { 
+		width: 204%;
+		a button {
+			left: 60%;
+		}
+		img {
+			height: 100px;
+		}
 	}
 
 }

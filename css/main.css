@@ -1013,6 +1013,10 @@ footer {
     width: 30%;
   }
 
+  .price {
+    clear: both;
+  }
+
   .slider {
     margin-top: 0;
   }
@@ -1064,6 +1068,18 @@ footer {
   .catalog-responsive img {
     height: 100px;
   }
+
+  #ninja-slider, #ninja-slider-pager {
+    display: none;
+  }
+
+  .col-5-12 {
+    width: 100%;
+  }
+
+  .slider p, h3 {
+    padding-right: 0;
+  }
 }
 @media (max-width: 400px) {
   .dropdown-menu ul {
@@ -1076,19 +1092,6 @@ footer {
 
   .footer-icon {
     display: none;
-  }
-
-  #ninja-slider, #ninja-slider-pager {
-    display: none;
-  }
-
-  .col-5-12 {
-    width: 100%;
-  }
-
-  .price {
-    display: block;
-    clear: both;
   }
 
   .side-utilities {
@@ -1107,10 +1110,6 @@ footer {
 
   .products {
     margin-top: -50px;
-  }
-
-  .slider p, h3 {
-    padding-right: 0;
   }
 
   .footer .col-1-5 {

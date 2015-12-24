@@ -637,7 +637,11 @@ footer {
 	.col-2-12 {
 		width: 30%;
 		// float: right;
-	}			
+	}
+
+	.price {
+		clear: both;
+	}	
 
 	.slider {
 		margin-top: 0;
@@ -696,6 +700,18 @@ footer {
 		}
 	}
 
+	#ninja-slider, #ninja-slider-pager {
+		display: none;
+	}
+
+	.col-5-12 {
+		width: 100%;
+	}
+
+	.slider p, h3 {
+		padding-right: 0;
+	}
+
 }
 
 @media(max-width: 400px) {
@@ -711,18 +727,7 @@ footer {
 		display: none;
 	}
 
-	#ninja-slider, #ninja-slider-pager {
-		display: none;
-	}
 
-	.col-5-12 {
-		width: 100%;
-	}
-
-	.price {
-		display: block;
-		clear: both;
-	}
 
 	.side-utilities {
 		width: 110%;
@@ -742,9 +747,6 @@ footer {
 		margin-top: -50px;
 	}
 
-	.slider p, h3 {
-			padding-right: 0;
-		}
 
 	.footer {
 		.col-1-5 {

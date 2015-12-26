@@ -1,0 +1,33 @@
+/* BODY - FOOTER */
+
+img.footer-icon {
+	float: right;
+	clear: none;
+}
+
+footer {
+	clear: both;
+}
+
+.footer {
+	background-color: white;
+	clear: both;
+	height: 50px;
+	padding-top: 10px;
+	h5 {
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 14px;
+		display: inline;
+		clear: none;
+	}
+	.col-1-5 {
+		margin-right: 6.66%;
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+	span img {
+		margin-left: 20px;
+	}
+}

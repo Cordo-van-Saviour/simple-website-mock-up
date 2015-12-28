@@ -171,19 +171,23 @@ ul li {
   height: 74px;
 }
 .secondary-navigation ul {
-  display: inline-block;
+  display: block;
   text-align: center;
   width: 100%;
   margin: 20px 0;
 }
 .secondary-navigation ul li {
+  display: inline-block;
   margin: auto;
   margin-right: 2%;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 37px;
   font-weight: bold;
+}
+.secondary-navigation ul li a {
   color: #282727;
+  padding: 25px 0;
 }
 .secondary-navigation ul li a img {
   padding: 5px;
@@ -191,10 +195,11 @@ ul li {
   vertical-align: middle;
   margin-top: -4px;
 }
-.secondary-navigation .side-utilities {
+
+.side-utilities {
   float: right;
 }
-.secondary-navigation .side-utilities img {
+.side-utilities img {
   padding: 7px;
   margin: 20px 0;
   margin-left: 5px;
@@ -204,22 +209,27 @@ ul li {
 }
 
 .secondary-navigation ul li ul.nav-dropdown {
-  width: 125px;
-  background: #f2f2f2;
+  max-width: 125px;
+  background: #ffffff;
   display: none;
   position: absolute;
-  float: none;
+  float: left;
   z-index: 200;
-  top: 68px;
+  top: 95px;
 }
 
 .secondary-navigation ul li:hover ul.nav-dropdown {
   display: block;
-  /* Display the dropdown */
 }
 
 .secondary-navigation ul li ul.nav-dropdown li {
   display: block;
+}
+.secondary-navigation ul li ul.nav-dropdown li:hover {
+  background-color: #37bbec;
+}
+.secondary-navigation ul li ul.nav-dropdown li:hover a {
+  color: #ffffff;
 }
 
 header {
@@ -271,6 +281,10 @@ header {
   clear: both;
   margin: auto;
 }
+.mobile-links li:hover a {
+  background-color: #37bbec;
+  color: #ffffff;
+}
 
 .fr {
   position: relative;
@@ -297,7 +311,7 @@ header {
   background-color: #37bbec;
   border: none;
   border-radius: 30px;
-  padding: 15px;
+  padding: 15px 45px;
   float: left;
 }
 .slider .old-price, .slider .new-price {

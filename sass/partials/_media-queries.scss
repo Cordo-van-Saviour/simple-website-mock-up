@@ -118,6 +118,10 @@
 }
 
 @media(max-width: 860px) {
+  header {
+    min-height: 117px;
+  }
+
   .secondary-navigation {
     .col-2-3 {
       display: none;
@@ -141,7 +145,6 @@
 
   .col-2-12 {
     width: 30%;
-    // float: right;
   }
 
   .price {
@@ -210,12 +213,12 @@
 
   .logo img {
     width: 130px;
-    margin-top: 4px;
+    margin-top: 5px;
   }
 
   .side-utilities {
     position: relative;
-    top: 39px;
+    top: 40px;
   }
 
   .col-3-4 {
@@ -228,9 +231,6 @@
   .product-line {
     width: 100%;
     margin-right: 0;
-//    button {
-//      bottom: 100px;
-//    }
   }
 
   .catalog-responsive {

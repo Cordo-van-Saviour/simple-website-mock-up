@@ -191,7 +191,7 @@ ul li {
 }
 .secondary-navigation ul li a img {
   padding: 5px;
-  width: 25px;
+  width: 27px;
   vertical-align: middle;
   margin-top: -4px;
 }
@@ -305,6 +305,7 @@ header {
   font-size: 18px;
   padding: 0 70px 0 0;
   margin-bottom: 75px;
+  color: #4e4e4e;
 }
 .slider a button {
   color: white;
@@ -374,6 +375,10 @@ h3 {
 .dropdown-menu ul {
   margin-bottom: 30px;
   border: 1px solid #ecefef;
+  -webkit-box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
 .dropdown-menu ul li {
   display: inline-block;
@@ -410,6 +415,9 @@ p {
   width: 30.33%;
   margin: 0 0 30px 3%;
   background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 0.25);
 }
 .product-line img {
   width: 98%;
@@ -442,7 +450,8 @@ p {
 }
 
 .product-price {
-  color: #37BBEC;
+  color: #37bbec;
+  font-weight: bold;
 }
 
 .catalog {
@@ -894,7 +903,7 @@ body {
 
 header {
   background-color: #ffffff;
-  border-bottom: 1px solid #d1d7d7;
+  border-bottom: 1px solid #d7dbdb;
 }
 
 h2 {
@@ -1074,6 +1083,10 @@ button:hover {
   }
 }
 @media (max-width: 860px) {
+  header {
+    min-height: 117px;
+  }
+
   .secondary-navigation .col-2-3 {
     display: none;
   }
@@ -1156,12 +1169,12 @@ button:hover {
 
   .logo img {
     width: 130px;
-    margin-top: 4px;
+    margin-top: 5px;
   }
 
   .side-utilities {
     position: relative;
-    top: 39px;
+    top: 40px;
   }
 
   .col-3-4 {

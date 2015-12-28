@@ -1,141 +1,167 @@
 /* BODY - PRODUCTS */
 
 .products {
-	clear: both;
-	float: left;
+  clear: both;
+  float: left;
+  border-top: 1px solid white;
 }
 
 h3 {
-	float: left;
-	margin: 100px 0 50px 0;
+  float: left;
+  margin: 40px 0 50px 0;
 }
 
 .dropdown-menu {
-	clear: left;
-	.dropdown-menu-head {
-		text-transform: uppercase;
-		font-weight: bold;
-		border-bottom: 1px solid #efefef;
-		padding: 15px 25px;
-		img {
-			width: 25px;
-			float: right;
-			clear: none;
-			position: relative;
-			padding: 5px;
-		}
-	}
-	ul {
-	margin-bottom: 30px;
-	border: 1px solid #ecefef;
-		li {
-			display: inline-block;
-			width: 100%;
-			padding: 10px 25px;
-			background-color: #ffffff;
-			&:nth-of-type(2n) {
-				background-color: #fafafa;
-			}
-			a {
-				padding-left: 10px;
-			}
-		}
-	}
+  clear: left;
+  .dropdown-menu-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #efefef;
+    padding: 15px 25px;
+    img {
+      width: 25px;
+      float: right;
+      clear: none;
+      position: relative;
+      padding: 5px;
+    }
+  }
+  ul {
+    margin-bottom: 30px;
+    border: 1px solid #ecefef;
+    li {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 25px;
+      background-color: #ffffff;
+      &:nth-of-type(2n) {
+        background-color: #fafafa;
+      }
+      a {
+        padding-left: 10px;
+      }
+    }
+  }
 }
 
 
 h5, p {
-	width: 100%;
-	font-size: 14px;
-	}
+  width: 100%;
+  font-size: 14px;
+}
 
 h5 {
-	padding: 25px 10px 10px 10px;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #282727;
+  padding: 25px 10px 10px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #282727;
 }
 
 p {
-	padding: 0 10px 20px 10px;
-	color: #898989;
+  padding: 0 10px 20px 10px;
+  color: #898989;
 }
 
 .product-line {
-	float: left;
-	width: 30.33%;
-	margin: 0 0 30px 3%;
-	background-color: #ffffff;
-	img {
-		width: 98%;
-		margin: 1%;
-	}
+  float: left;
+  width: 30.33%;
+  margin: 0 0 30px 3%;
+  background-color: #ffffff;
+  img {
+    width: 98%;
+    margin: 1%;
+  }
+  button {
+    border: none;
+    border-radius: 30px;
+    padding: 15px 45px;
+    width: 80%;
+    display: block;
+    margin: 5px auto;
+    position: relative;
+    bottom: 160px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+}
+
+.product-buttons {
+  height: 0;
+  margin-bottom: -5px;
+}
+
+.to-cart-btn {
+  background-color: $blue;
+}
+
+.more-info-btn {
+  background-color: $yellow;
 }
 
 .product-price {
-	color: #37BBEC;
+  color: #37BBEC;
 }
 
 .catalog {
-	clear: left;
-	h3 {
-		margin: 20px 20px 40px 20px;
-		position: relative;
-		bottom: 200px;
-		color: white;
-	}
-	p {
-		display: inline-block;
- 		position: relative;
-    	bottom: 220px;
-    	left: 12px;
-    	color: white;
-    	text-transform: uppercase;
-    	font-weight: bold;
-	}
-	a button {
-	    position: relative;
-	    bottom: 190px;
-	    left: 20px;
-	    color: white;
-	    background: transparent;
-	    border: 2px solid white;
-	    padding: 8px 20px;
-	    border-radius: 5px;
-	    cursor: pointer;
-		}
-	img {
-		width: 100%;
-	} 
+  clear: left;
+  h3 {
+    margin: 20px 20px 40px 20px;
+    position: relative;
+    bottom: 200px;
+    color: white;
+  }
+  p {
+    display: inline-block;
+    position: relative;
+    bottom: 220px;
+    left: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  a button {
+    position: relative;
+    bottom: 190px;
+    left: 20px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  img {
+    width: 100%;
+  }
 }
 
 .catalog-clear {
-	float: left;
-	clear: left;
+  float: left;
+  clear: left;
 }
 
 
 .col-1-4 a {
-	color: black;
+  color: black;
 }
 
 
 input {
-	float: right;
+  float: right;
 }
 
 .dropdown-arr {
-	cursor: pointer;
-	webkit-transition: all .5s;
-	transition: all .5s;
+  cursor: pointer;
+  webkit-transition: all .5s;
+  transition: all .5s;
 }
 
- .dropdown-arr-active {
-	webkit-transition: all .5s;
-	transition: all .5s;
-	-ms-transform: rotate(180deg);  
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-}  
+.dropdown-arr-active {
+  webkit-transition: all .5s;
+  transition: all .5s;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
 
 /* BODY - PRODUCTS END */

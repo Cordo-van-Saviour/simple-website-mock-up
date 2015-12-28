@@ -37,11 +37,40 @@
 
 			<div class="col-2-3">
 				<ul>
-					<li>kitchen		<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>	</li>
-					<li>living room	<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>	</li>
-					<li>bedroom		<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>	</li>
-					<li>children's 	<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>	</li>
-					<li>textiles 	<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>	</li>
+					<li>kitchen		<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                        </ul>
+                    </li>
+					<li>living room	<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                        </ul>
+                    </li>
+					<li>bedroom		<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                        </ul>
+                    </li>
+					<li>children's 	<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>	            <ul class="nav-dropdown">
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#">Item 3</a></li>
+                    </ul>
+                    </li>
+					<li>textiles 	<a href="#"><img src="img/dropdown-arrow-small-blue.png" alt=""></a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                        </ul>
+                    </li>
 				</ul>
 			</div>
 
@@ -117,11 +146,10 @@
 	</div>
 
 	<div class="products">
-
 		<h3>Kitchen utensils</h3>
 		<div class="col-1-4 dropdown-menu">
 			<ul>
-				<li class="dropdown-menu-head">Categories<img class="dropdown-arr" src="img/dropdown-arrow-small.png" alt=""></li>
+				<li class="dropdown-menu-head">Categories<img class="dropdown-arr dropdown-arr-active" src="img/dropdown-arrow-small.png" alt=""></li>
 				<div class="toggled-options options-categories">
 					<li><a href="#">Tea and Coffee</a></li>
 					<li><a href="#">Cutlery</a></li>
@@ -134,7 +162,7 @@
 			</ul>
 
 			<ul>
-				<li class="dropdown-menu-head">Select color<img class="dropdown-arr" src="img/dropdown-arrow-small.png" alt=""></li>
+				<li class="dropdown-menu-head">Select color<img class="dropdown-arr dropdown-arr-active" src="img/dropdown-arrow-small.png" alt=""></li>
 				<div class="toggled-options">
 					<li><div class="purple-dot"></div><a href="#">Purple</a><input type="checkbox" name="color"></li>
 					<li><div class="blue-dot"></div><a href="#">Blue</a><input type="checkbox" name="color"></li>
@@ -149,7 +177,7 @@
 			</ul>
 
 			<ul>
-				<li class="dropdown-menu-head">Materials<img class="dropdown-arr" src="img/dropdown-arrow-small.png" alt=""></li>
+				<li class="dropdown-menu-head">Materials<img class="dropdown-arr dropdown-arr-active" src="img/dropdown-arrow-small.png" alt=""></li>
 				<div class="toggled-options">
 		  			<li>All<input type="radio" name="material" value="material" checked></li>
 		  			<li>Steel<input type="radio" name="material" value="material"></li>
@@ -160,7 +188,7 @@
 			</ul>
 
 			<ul>
-				<li class="dropdown-menu-head">More options<img class="dropdown-arr" src="img/dropdown-arrow-small.png" alt=""></li>
+				<li class="dropdown-menu-head">More options<img class="dropdown-arr dropdown-arr-active" src="img/dropdown-arrow-small.png" alt=""></li>
 				<div class="toggled-options">
 					<li><a href="#">Purple</a></li>
 					<li><a href="#">Blue</a></li>
@@ -185,6 +213,15 @@
 		<div class="col-3-4">
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
+                <div class="product-buttons">
+                <a href="">
+                    <button class="to-cart-btn">Add to cart</button>
+                </a>
+
+                <a href="">
+                    <button class="more-info-btn">More info</button>
+                </a>
+                </div>
 				<a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
@@ -192,6 +229,15 @@
 			
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
 				<a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
@@ -199,6 +245,15 @@
 
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
 				<a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
@@ -209,6 +264,15 @@
 		<div class="col-3-4">
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
 				<a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
@@ -216,6 +280,15 @@
 			
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
 				<a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
@@ -223,6 +296,15 @@
 
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
 				<a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
@@ -232,21 +314,48 @@
 		<div class="col-3-4">
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
-				<a href=""><h5>Mugs with yellow stripes</h5></a>
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
+                <a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
 			</div>
 			
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
-				<a href=""><h5>Mugs with yellow stripes</h5></a>
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
+                <a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
 			</div>
 
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
-				<a href=""><h5>Mugs with yellow stripes</h5></a>
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
+                <a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
 			</div>
@@ -255,28 +364,64 @@
 		<div class="col-3-4">
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
-				<a href=""><h5>Mugs with yellow stripes</h5></a>
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
+                <a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
 			</div>
 			
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
-				<a href=""><h5>Mugs with yellow stripes</h5></a>
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
+                <a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
 			</div>
 
 			<div class="product-line">
 				<img src="http://placehold.it/260x200">
-				<a href=""><h5>Mugs with yellow stripes</h5></a>
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
+                <a href=""><h5>Mugs with yellow stripes</h5></a>
 				<p>Kitchen utensils</p>
 				<p class="product-price">$15.50</p>
 			</div>
 		
 			<div class="catalog catalog-responsive">
 				<img src="img/catalog-responsive.jpg" alt="">
-				<h3>Free Catalog</h3>
+                <div class="product-buttons">
+                    <a href="">
+                        <button class="to-cart-btn">Add to cart</button>
+                    </a>
+
+                    <a href="">
+                        <button class="more-info-btn">More info</button>
+                    </a>
+                </div>
+                <h3>Free Catalog</h3>
 				<p>Summer 2015</p>
 				<a href="#"><button>Download</button></a>
 			</div>
@@ -290,6 +435,7 @@
 <script type="text/javascript" src="js/ninjaSlider.js"> </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/dropdown.js"></script>
+<script type="text/javascript" src="js/toCartHover.js"></script>
 
 </body>
 

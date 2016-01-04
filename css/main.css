@@ -379,7 +379,8 @@ div.slider-inner:hover #ninja-slider-prev, div.slider-inner:hover #ninja-slider-
 
 html {
   background-color: white;
-  max-width: 1300px; }
+  max-width: 1300px;
+  margin: auto; }
 
 body {
   margin: auto;
